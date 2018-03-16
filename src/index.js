@@ -111,7 +111,6 @@ export default class Spinner extends React.Component {
     return (
       <View style={styles.background}>
         <ActivityIndicator
-          color={this.props.color}
           size={this.props.size}
           style={{ flex: 1 }}
         />
